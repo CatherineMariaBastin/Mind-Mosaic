@@ -1,29 +1,78 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Mind Mosaic</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Mosaic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
+<body>
+    <div class="container">
         <header>
-            <h1>Welcome to my personal blog</h1>
-            <p>Sharing my personal thoughts and experiences in my life.</p>
+            <h1>Mind Mosaic</h1>
+            <p>A tapestry of thoughts, experiences, and journeys</p>
+            <div class="current-page-indicator"></div>
         </header>
 
         <nav>
-            <a href="index.html">Home</a>
+            <a href="index.html" class="active">Home</a>
             <a href="about.html">Quintessence of ME</a>
-            <a href="Blog.html">My Madness</a>
-            <a href="Contact.html">Let's Chat</a>
+            <a href="blog.html">My Madness</a>
+            <a href="contact.html">Let's Chat</a>
         </nav>
 
         <main>
-            <p>You might be wondering who I am? So I am not keeping you waiting for someone you haven't even dreamed of. So without any further ado, DIG IN!</p>
+            <section>
+                <h2>Welcome to My Personal Space</h2>
+                <p>You might be wondering who I am? So I am not keeping you waiting for someone you haven't even dreamed of. So without any further ado, DIG IN!</p>
+                
+                <div class="image-container">
+                    <img src="/api/placeholder/800/400" alt="Mind Mosaic Banner">
+                    <div class="image-caption">Exploring the landscapes of thought and creativity</div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Latest Reflections</h2>
+                <p>Every story has a beginning, and this is mine. Join me as I navigate through the complexities of life, capturing moments of inspiration, growth, and self-discovery along the way.</p>
+                
+                <div class="image-grid">
+                    <div class="image-container">
+                        <img src="/api/placeholder/400/300" alt="College Life">
+                        <div class="image-caption">College Adventures</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="/api/placeholder/400/300" alt="Creative Process">
+                        <div class="image-caption">Creative Journeys</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="/api/placeholder/400/300" alt="Personal Growth">
+                        <div class="image-caption">Moments of Clarity</div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Featured Post</h2>
+                <blockquote>
+                    Instead of drowning in regret over wasted time, I've decided to start somewhere, step by step—like a kid learning to speak the Kalakeyan language (minus the dragons, of course).
+                </blockquote>
+                <p>This journey of self-discovery and constant learning has taught me that it's never too late to embrace new beginnings. Every day offers a fresh canvas to paint your story.</p>
+                <a href="blog.html" class="button">Read More in My Blog</a>
+            </section>
         </main>
 
         <footer>
-            <p>&copy; 2025 My Mind Mosaic</p>
+            <p>&copy; 2025 My Mind Mosaic | Catherine Maria Bastin</p>
         </footer>
-    </body>
+    </div>
+
+    <script>
+        // Add simple page load animation
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('page-loaded');
+        });
+    </script>
+</body>
 </html>
