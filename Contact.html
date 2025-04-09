@@ -1,29 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Contact Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Chat | Mind Mosaic</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="container">
+        <header>
+            <h1>Contact Me</h1>
+            <p>Let's connect and start a conversation</p>
+            <div class="current-page-indicator"></div>
+        </header>
 
-    <header>
-        <h1>Contact Me</h1>
-    </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">Quintessence of ME</a>
+            <a href="blog.html">My Madness</a>
+            <a href="contact.html" class="active">Let's Chat</a>
+        </nav>
 
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="Blog.html">Blog</a> |
-        <a href="Contact.html">Contact</a>
-    </nav>
+        <main>
+            <section>
+                <h2>Get in Touch</h2>
+                <p>I'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out using any of the methods below.</p>
+                
+                <div class="image-container">
+                    <img src="/api/placeholder/800/300" alt="Contact Banner">
+                    <div class="image-caption">Let's start a conversation</div>
+                </div>
+            </section>
+            
+            <section>
+                <h2>Contact Information</h2>
+                <p>Email me at <a href="mailto:catherinepurayidam@gmail.com">catherinepurayidam@gmail.com</a>.</p>
+                
+                <div class="image-grid">
+                    <div class="image-container">
+                        <img src="/api/placeholder/200/200" alt="Email">
+                        <div class="image-caption">Email</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="/api/placeholder/200/200" alt="Social Media">
+                        <div class="image-caption">Social Media</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="/api/placeholder/200/200" alt="Coffee Chat">
+                        <div class="image-caption">Coffee Chat</div>
+                    </div>
+                </div>
+            </section>
 
-    <main>
-        <p>Email me at <a href="catherinepurayidam@gmail.com">Let's Chat</a>.</p>
-    </main>
+            <section>
+                <h2>Send a Message</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Share your thoughts..." required></textarea>
+                    </div>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+            
+            <section>
+                <h2>Connect on Social Media</h2>
+                <p>Follow my journey and connect with me on various social platforms where I share more frequent updates and insights.</p>
+                
+                <div class="image-grid">
+                    <div class="image-container">
+                        <img src="/api/placeholder/150/150" alt="Instagram">
+                        <div class="image-caption">Instagram</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="/api/placeholder/150/150" alt="Twitter">
+                        <div class="image-caption">Twitter</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="/api/placeholder/150/150" alt="LinkedIn">
+                        <div class="image-caption">LinkedIn</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="/api/placeholder/150/150" alt="GitHub">
+                        <div class="image-caption">GitHub</div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-    <footer>
-        <p>&copy; My Mind Mosaic</p>
-    </footer>
+        <footer>
+            <p>&copy; 2025 My Mind Mosaic | Catherine Maria Bastin</p>
+        </footer>
+    </div>
 
+    <script>
+        // Add simple page load animation
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('page-loaded');
+        });
+    </script>
 </body>
 </html>
