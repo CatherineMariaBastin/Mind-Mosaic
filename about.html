@@ -1,31 +1,101 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Quintessence of ME</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quintessence of ME | Mind Mosaic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
+<body>
+    <div class="container">
         <header>
             <h1>About ME</h1>
+            <p>The essence that defines my journey</p>
+            <div class="current-page-indicator"></div>
         </header>
 
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About</a> |
-            <a href="Blog.html">Blog</a> |
-            <a href="Contact.html">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">Quintessence of ME</a>
+            <a href="blog.html">My Madness</a>
+            <a href="contact.html">Let's Chat</a>
         </nav>
 
         <main>
-            <h2>The Curious KIND</h2>
-        <p>So Mind Mosaic----- You might be wondering who I am...... So  here I am.</p>
-        <p>Like the petals of a flower, each experience in my life adds color to who I am. Like the leaves of a tree, my thoughts reach out, eager to learn and grow. I am Catherine Maria Bastin—a seeker of stories, a lover of knowledge, and an explorer of the endless wonders this world has to offer. Rooted in curiosity, I embrace the winds of change, always ready to bloom in new directions.</p>
+            <section>
+                <h2>The Curious KIND</h2>
+                
+                <div class="image-container">
+                    <img class="profile-image" src="/api/placeholder/200/200" alt="Catherine Maria Bastin">
+                </div>
+                
+                <p>So Mind Mosaic—You might be wondering who I am...... So here I am.</p>
+                
+                <p>Like the petals of a flower, each experience in my life adds color to who I am. Like the leaves of a tree, my thoughts reach out, eager to learn and grow. I am Catherine Maria Bastin—a seeker of stories, a lover of knowledge, and an explorer of the endless wonders this world has to offer. Rooted in curiosity, I embrace the winds of change, always ready to bloom in new directions.</p>
+            </section>
+
+            <section>
+                <h2>My Journey</h2>
+                <div class="image-container">
+                    <img src="/api/placeholder/800/400" alt="Journey Illustration">
+                    <div class="image-caption">The path that shapes my perspective</div>
+                </div>
+                
+                <p>My story begins with a simple curiosity about the world around me. As a child, I was always asking "why" and "how," seeking to understand the mechanisms that drive our universe. This curiosity has remained a constant companion throughout my life, guiding me through academic pursuits and personal explorations alike.</p>
+                
+                <p>Each challenge I've faced has been an opportunity to grow. Each success, a moment to reflect. I believe that life is a continuous journey of learning, and I approach each day with an open mind and heart, ready to absorb new experiences and perspectives.</p>
+            </section>
+
+            <section>
+                <h2>Passions & Pursuits</h2>
+                <div class="image-grid">
+                    <div class="image-container">
+                        <img src="/api/placeholder/300/300" alt="Web Development">
+                        <div class="image-caption">Web Development</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="/api/placeholder/300/300" alt="Creative Writing">
+                        <div class="image-caption">Creative Writing</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="/api/placeholder/300/300" alt="Exploration">
+                        <div class="image-caption">Exploration</div>
+                    </div>
+                </div>
+                
+                <blockquote>
+                    "The more I learn, the more I realize how much I don't know." — Albert Einstein
+                </blockquote>
+                
+                <p>My interests span across different domains, from technology and web development to literature and philosophy. I believe in the power of interdisciplinary thinking and how connecting seemingly disparate fields can lead to innovative ideas and solutions.</p>
+                
+                <p>When I'm not coding or reading, you might find me exploring nature trails, experimenting with new recipes, or engaging in thoughtful conversations with friends and strangers alike. Every interaction is an opportunity to learn something new.</p>
+            </section>
+            
+            <section>
+                <h2>My Philosophy</h2>
+                <p>I believe that every individual has a unique mosaic of experiences that shapes their worldview. My philosophy is centered around embracing this diversity of thought and perspective, recognizing that each person's journey offers valuable insights.</p>
+                
+                <p>Through this blog, I hope to share pieces of my mosaic while inviting others to reflect on their own. Because in the end, it's not just about finding answers—it's about asking the right questions and appreciating the beauty of the journey itself.</p>
+                
+                <div class="image-container">
+                    <img src="/api/placeholder/800/300" alt="Mosaic Metaphor">
+                    <div class="image-caption">Every experience adds a unique tile to life's mosaic</div>
+                </div>
+            </section>
         </main>
 
         <footer>
-            <p>&copy; 2025 My Mind Mosaic</p>
+            <p>&copy; 2025 My Mind Mosaic | Catherine Maria Bastin</p>
         </footer>
-        
-    </body>
+    </div>
+
+    <script>
+        // Add simple page load animation
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('page-loaded');
+        });
+    </script>
+</body>
 </html>
