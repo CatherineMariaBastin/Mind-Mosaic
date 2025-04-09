@@ -1,38 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My Blog Posts</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Madness | Mind Mosaic</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="container">
+        <header>
+            <h1>Blog</h1>
+            <p>Let's have a peek on my college life.</p>
+            <div class="current-page-indicator"></div>
+        </header>
 
-    <header>
-        <h1>Blog</h1>
-        <p>Let's have a peek at my college life.</p>
-    </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">Quintessence of ME</a>
+            <a href="blog.html" class="active">My Madness</a>
+            <a href="contact.html">Let's Chat</a>
+        </nav>
 
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="Blog.html">Blog</a> |
-        <a href="Contact.html">Contact</a>
-    </nav>
+        <main>
+            <article>
+                <h2><a href="post1.html">What is so nice about my college</a></h2>
+                <div class="image-container">
+                    <img src="/api/placeholder/800/400" alt="College Campus">
+                    <div class="image-caption">Government Model Engineering College, Ernakulam</div>
+                </div>
+                <p>As someone who once aspired to become an IIT or NIT alumnus, stepping into Government Model Engineering College, Ernakulam wasn't exactly a dream come true. It was a decision made hesitantly—a compromise, rather than a choice. Unlike many who romanticize their college years before they even begin, I had no such visions. Instead, I was plagued with doubts, wondering if this would be a drastic misstep academically.</p>
+                
+                <p>Still, I decided to give it a try... A TRY—as if I had multiple lives to experiment with on this Earth. I joined with the hopes of mastering coding, web development, app development—you name it. But here's the irony: instead of immersing myself in the world of programming, I wasted time, oblivious to the knowledge that lay before me. The very things I had once aimed to learn felt like leaves on the tallest branches, only reachable by a giraffe—distant, almost impossible to grasp.</p>
+                    
+                <blockquote>Yet, every journey has its turning point. And so did mine...</blockquote>
+                
+                <a href="post1.html" class="button">Continue Reading</a>
+            </article>
 
-    <main>
-        <article>
-            <h2><a href="post1.html">What is so nice about my college</a></h2>
-            <p>As someone who once aspired to become an IIT or NIT alumnus, stepping into Government Model Engineering College, Ernakulam wasn’t exactly a dream come true. It was a decision made hesitantly—a compromise, rather than a choice. Unlike many who romanticize their college years before they even begin, I had no such visions. Instead, I was plagued with doubts, wondering if this would be a drastic misstep academically.Still, I decided to give it a try... A TRY—as if I had multiple lives to experiment with on this Earth. I joined with the hopes of mastering coding, web development, app development—you name it. But here’s the irony: instead of immersing myself in the world of programming, I wasted time, oblivious to the knowledge that lay before me. The very things I had once aimed to learn felt like leaves on the tallest branches, only reachable by a giraffe—distant, almost impossible to grasp.Yet, every journey has its turning point. And so did mine...</p>
-        </article>
+            <article>
+                <h2><a href="post2.html">The Turning Point</a></h2>
+                <div class="image-container">
+                    <img src="/api/placeholder/800/400" alt="Web Development">
+                    <div class="image-caption">Finally diving into web development on my own terms</div>
+                </div>
+                <p>By the second semester, reality hit me—all those "hard things" I feared were actually on my syllabus. What an irony! And to make things even more fun (read: frustrating), my faculties weren't exactly the "teaching" kind. HAAAHAHAAA!</p>
 
-        <article>
-            <h2><a href="post2.html">The Turning Point</a></h2>
-            <p>By the second semester, reality hit me—all those "hard things" I feared were actually on my syllabus. What an irony! And to make things even more fun (read: frustrating), my faculties weren’t exactly the "teaching" kind. HAAAHAHAAA!So here I am, finally tasting the fruits of web development—experimenting with HTML, CSS, JavaScript… and whatever else the internet throws my way. But here’s the difference: this time, it’s my initiative. Not an assignment, not a syllabus requirement—just me, trying to keep myself on track.Instead of drowning in regret over wasted time, I’ve decided to start somewhere, step by step—like a kid learning to speak the Kalakeyan language (minus the dragons, of course).And who knows? Maybe this "TRY" will finally take me somewhere.</p>
-        </article>
-    </main>
+                <p>So here I am, finally tasting the fruits of web development—experimenting with HTML, CSS, JavaScript… and whatever else the internet throws my way. But here's the difference: this time, it's my initiative. Not an assignment, not a syllabus requirement—just me, trying to keep myself on track.</p>
+                
+                <p>Instead of drowning in regret over wasted time, I've decided to start somewhere, step by step—like a kid learning to speak the Kalakeyan language (minus the dragons, of course).</p>
+                
+                <blockquote>And who knows? Maybe this "TRY" will finally take me somewhere.</blockquote>
+                
+                <a href="post2.html" class="button">Continue Reading</a>
+            </article>
+            
+            <section>
+                <h2>Recent Discoveries</h2>
+                <div class="image-grid">
+                    <div class="image-container">
+                        <img src="/api/placeholder/300/200" alt="HTML5">
+                        <div class="image-caption">The Structure</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="/api/placeholder/300/200" alt="CSS3">
+                        <div class="image-caption">The Style</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="/api/placeholder/300/200" alt="JavaScript">
+                        <div class="image-caption">The Function</div>
+                    </div>
+                </div>
+                <p>My journey through web development has been filled with moments of frustration and excitement. Learning these three core technologies has opened my eyes to the countless possibilities of creating on the web.</p>
+            </section>
+        </main>
 
-    <footer>
-        <p>&copy; 2024 My Personal Blog</p>
-    </footer>
+        <footer>
+            <p>&copy; 2025 My Mind Mosaic | Catherine Maria Bastin</p>
+        </footer>
+    </div>
 
+    <script>
+        // Add simple page load animation
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('page-loaded');
+        });
+    </script>
 </body>
 </html>
